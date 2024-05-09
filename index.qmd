@@ -1,0 +1,196 @@
+---
+title: "Beyond the Stream: Ensuring Artist Equity in Digital Music Distribution"
+subtitle: Data Ethics and Policy Final Project
+author: Patricia Schenfeld
+format: html
+link-external-newwindow: true
+bibliography: reference.bib
+date: May 10, 2024
+website:
+  back-to-top-navigation: true
+page-layout: full 
+theme: lumen
+toc: true
+grid:
+    body-width: 1100px
+---
+
+
+::: {.column-screen style="background-image:url(images/evolution.jpg); background-size: cover; height: 40vh; top: 0; "}
+:::
+
+# Abstract
+
+The digital music industry has revolutionized the way music is consumed and distributed, yet it has also introduced challenges for artists to earn a sustainable income. This paper examines the evolving landscape of music monetization, highlighting the shift from physical formats to digital streaming platforms dominated by major players like Spotify and Apple Music. The current payment structures disproportionately favor A-list artists, exacerbating inequality and stifling opportunities for emerging talent. Drawing on John Rawls' principles of justice, we propose a hybrid royalty model that combines elements of both pro rata and user-centric systems to ensure fairer revenue distribution. Additionally, we advocate for the promotion of artist-friendly tools and technologies, such as Spotify's remixing feature, to empower artists in navigating streaming algorithms and monetizing their creative work. Furthermore, we propose the establishment of an Artist Support Fund, funded through industry contributions, government grants, and public-private partnerships, to provide financial assistance and mentorship programs for emerging artists. By embracing these policy recommendations, the digital music industry can foster a more equitable and sustainable ecosystem for artists to thrive.
+
+# Introduction and Background
+
+A constant throughout the entirety of human history has been that music and art are integral parts of our cultural expression and creativity. Something that has not remained constant, however, is the way that money is distributed in the music business. Let’s take a look at the history of music monetization and how over time it’s become increasingly more difficult for musicians to make a living off of their work. In the early 1800s, the primary revenue for musicians came from printed sheet music, and as the early 1900s approached, recorded music took over. Record sales reached over \$100 million in 1927, and continued to dominate the music distribution scene until the mid-century. The grand innovation of audio cassettes and the Sony Walkman in the 1970s allowed consumers to experience music anywhere, and these formats began to dominate record sales within 5 years of their release. Soon after in the 1980s, CDs were introduced, and quickly took the music industry by storm. It became the most efficient method of music preservation and by 2007, worldwide sales of CDs had exceeded $200 billion. Not long after, digital consumption of music emerged, with both legitimate and illegitimate distribution. It is evident how rapidly the music industry and technology continues to evolve, which in turn affects the way that musicians earn their money. Many digital subscription platforms for music use a royalty payment scheme which goes to the rightsholder of the music, typically record companies, who then distribute earnings to the artists. Due to the revenue structure of the major streaming services, many artists are struggling to make a livable wage, and demand changes in the system [@history].
+
+The graph below shows how the source of music revenues have shifted over time, notably with the bulk of revenues in modern day coming from paid subscription streaming services.
+
+<div class='tableauPlaceholder' id='viz1715123123438' style='position: relative'>
+  <noscript>
+    <a href='https:&#47;&#47;www.riaa.com&#47;'>
+      <img alt='Revenues by Format ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;U_&#47;U_S_RecordedMusicRevenuesbyFormat_0&#47;RevenuesbyFormat&#47;1_rss.png' style='border: none' />
+    </a>
+  </noscript>
+  <object class='tableauViz' style='display:none;'>
+    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+    <param name='embed_code_version' value='3' />
+    <param name='site_root' value='' />
+    <param name='name' value='U_S_RecordedMusicRevenuesbyFormat_0&#47;RevenuesbyFormat' />
+    <param name='tabs' value='no' />
+    <param name='toolbar' value='yes' />
+    <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;U_&#47;U_S_RecordedMusicRevenuesbyFormat_0&#47;RevenuesbyFormat&#47;1.png' />
+    <param name='animate_transition' value='yes' />
+    <param name='display_static_image' value='yes' />
+    <param name='display_spinner' value='yes' />
+    <param name='display_overlay' value='yes' />
+    <param name='display_count' value='yes' />
+  </object>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1715123123438');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  vizElement.style.width='1000px';
+  vizElement.style.height='827px';
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+
+[@riaa]
+
+# The Problem
+
+Digital streaming services are the dominant form of music consumption, making up nearly 85% of recorded music revenues in the United States, coming from companies like Spotify, Apple Music, and Amazon [@riaa]. The main issue that artists are facing are the way funds are distributed. As mentioned earlier, many of the major platforms operate by paying royalties to the rights holders of the music, which typically goes to the record companies, and is then distributed to the artists. The current economic model in place over-rewards large A-list musical stars, who receive an immense amount of streams on the platforms. As written in a New York Times article discussing this issue, “Part of the dispute is over streaming’s basic economics. Spotify, Apple Music and most other major platforms use a so-called pro rata system of royalty distribution. In this model, all the money collected from subscribers or ads for a given month goes into a single pot, which is then divided by the total number of streams. If, say, Drake had 5 percent of all streams that month, he (and the companies that handle his music) get 5 percent of the pot — meaning that, effectively, he gets 5 percent of each user’s money, even those who have never listened to his music,” [@ny-times]. This places an advantage to artists who are known on a global scale and have a further reach. The Rolling Stone stated that data shows 90% of streams go to the top 1% of artists [@rollingstone].
+
+Besides simple click and play streams directly from an artist’s profile, playlisting and algorithmic recommendations come into factor. For instance, when playlists are curated and recommended to users, they often contain songs with mass-appeal, ultimately perpetuating inequality by favoring established artists over emerging talent. This also raises the newly found problem of artists having to play the ‘algorithm game’, which has even more prevalence due to TikTok, a social media app that runs on virality. TikTok trends and influencers have the power to make songs go viral, potentially generating more streams for those respective artists on platforms like Spotify and Apple Music. The pressure to conform to streaming algorithms and chase viral trends can have implications for artistic creativity and freedom for artists. In an industry increasingly driven by metrics, artists may feel compelled to tailor their music to fit commercial trends rather than express their authentic artistic vision. This emphasis on commercial success over artistic integrity may stifle innovation and diversity in music creation, as artists prioritize mainstream appeal over experimentation. The algorithmic-driven nature of streaming platforms may prioritize formulaic, easily digestible content over challenging or unconventional artistic expressions, ultimately limiting artistic freedom and cultural innovation.
+
+Keeping in mind these two main issues, we can apply a Rawlsian framework. John Rawls was an American philosopher and his most famous work, "A Theory of Justice" (1971), revolutionized contemporary political philosophy and ethics. Rawls' central idea revolves around the concept of justice as fairness. He proposed a thought experiment known as the "original position" to determine principles of justice that would govern a hypothetical society. In the original position, individuals are behind a "veil of ignorance," where they are unaware of their own attributes, such as their social status, wealth, or talents. From this position of impartiality, individuals are tasked with choosing principles of justice to govern society.
+Rawls argued that rational individuals in the original position would choose two principles of justice:
+
+* The principle of equal basic liberties: This principle ensures that all individuals have equal rights to the most extensive basic liberties compatible with similar liberties for others. These liberties include freedom of speech, assembly, religion, and the right to vote.
+* The difference principle: This principle allows social and economic inequalities only if they benefit the least advantaged members of society. In other words, inequalities in wealth and income are permissible only if they result in improving the situation of the least well-off individuals.
+
+With the issues of artists having to play the ‘algorithm game’ for gaining popularity, we can break that down into two separate goals as per the Rawls’ framework:
+
+* A. Musicians making a liveable wage
+* B. Musicians being rewarded for making songs that people like (for which, one measurement could be streams, another could be ticket sales, etc.)
+
+Is there a feasible and fair policy that could ensure both (A) and (B), where, (A) falls into the category of "basic goods" and (B) falls into the category of non-basic goods? We will discuss this further in the next section discussing possible solutions.
+
+It is estimated that Spotify only pays around less than half a cent per stream, which still has to pass through the rights holders before making its way to the artist [@ny-times]. Evidently, smaller artists are struggling to make a liveable wage, and changes within the economic system of digital music distribution could help thousands of artists. 
+The main issues to be considered are as follows:
+
+* Current payment structures on major platforms need to be changed
+* Support for smaller artists amidst algorithmic challenges
+
+With many moving pieces, there are several factors to consider in creating a fair policy that addresses these important issues within the music industry.
+
+# Possible Solutions
+
+## User-Centric Model
+
+The economic structure in the music industry varies by platform, with the major players (Spotify/Apple Music) using a pro rata payment scheme, as mentioned earlier. This places an advantage to bigger stars on the platform.
+Looking back at the two separate goals per the Rawl’s framework:
+
+* A. Musicians making a liveable wage
+* B. Musicians being rewarded for making songs that people like (for which, one measurement could be streams, another could be ticket sales, etc.)
+
+We can say that one end of the policy spectrum would place 100% weight on satisfying goal (A), where every musician gets $X salary. The opposite end of this policy spectrum, that would place 100% weight on satisfying goal (B), would be to say that every musician's salary is just 100% dependent on (e.g.) how many streams they get.
+
+A potential solution would be a user-centric payment system as opposed to the pro rata system. Under this system, revenue goes towards the exact artists a user listens to, versus all the revenue being put in one pool. This presents a more equitable solution for musicians being rewarded for making songs that people like (goal B). A new study from a music services firm called Pro Musik revealed that **29.3%** of artists could experience a rise in earnings by **40%** or higher compared to the prevailing pro rata payment model adopted by the majority of streaming platforms [@user-centric]. Below you will see two diagrams comparing the pro rata model and the user-centric model.
+
+<style>
+  .centered-text {
+    text-align: center;
+  }
+</style>
+<h1 class="centered-text">Pro Rata System</h1>
+<h5 class="centered-text">Everyone’s money goes into a giant pool and artists get paid based on their total streams. This means the megastars make the most.</h5>
+
+<div class="LandingPageAnimation_WindowWrapper__sOgmB" id="how-artists-get-paid">
+  <div class="AnimationWrapper_AnimationWrapper__4D_7z AnimationWrapper_m-visible__xbDGv">
+  </div>
+  <video id="video" loop muted playsinline preload="auto" width="915.84">
+    <source src="images/current_model.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("video");
+    video.play();
+  });
+</script>
+[@soundcloud]
+
+<h1 class="centered-text">User-Centric System</h1>
+<h5 class="centered-text">It’s about equity: your money goes to the exact artists you listen to.</h5>
+
+<div class="LandingPageAnimation_WindowWrapper__sOgmB" id="how-artists-get-paid">
+  <div class="AnimationWrapper_AnimationWrapper__4D_7z AnimationWrapper_m-visible__xbDGv">
+  </div>
+  <video id="video2" loop muted playsinline preload="auto" width="915.84">
+    <source src="images/FPR_model.mp4" type="video/mp4">
+  </video>
+</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var video = document.getElementById("video2");
+    video.play();
+  });
+</script>
+[@soundcloud]
+
+The user-centric model allows for a more equitable revenue distribution, allowing dedicated fans to support the artists they listen to, further supporting niche-genres and their audiences. The user-centric model rewards quality of fans, not just quantity of streams. For instance, a user who listens to reggae music would see their money go to reggae artists, not pop stars. This model additionally fuels creativity; as independent artists are able to make more money based off of their streams, they are then able to continue making more music that their fans love. 
+
+An early adopter and advocate for the user-centric payment system is the streaming service SoundCloud. They call it ‘Fan-Powered Royalties’, which they officially put in place in 2021. Warner Music Group (WMG) soon adopted SoundCloud’s user-centric revenue model, cutting a licensing deal to adopt their system. WMG was the first major record label to adopt this model, signaling a potential shift in the industry [@verge].
+
+However, it is important to note that although the user-centric approach would significantly help smaller artists, the megastars would see a decrease of income. This dilemma resonates with Rawls' difference principle, which permits social and economic inequalities only if they serve to uplift the most disadvantaged members of society. The study from Pro Musik estimates that **38.8%** of artists would see a decrease in income of **40%** or more, with **11%** of artists losing **80-100%** of their streaming income [@user-centric]. These are important factors to consider, especially considering the significant influence and advocacy power wielded by major stars within the industry, who may strongly oppose such changes.
+
+## Raising Streaming Royalties
+
+Under the current pro rata model, there is room to increase streaming royalties, which currently stand at a fraction of a penny. There is a new bill presented to the US House of Representatives called The Living Wage for Musicians Act that aims to raise streaming royalties for artists to 1 penny per stream [@raise-royalties]. This would be achieved by creating a new royalty fund that would pay artists directly, bypassing record labels. The fund would only be successful if a mandate is put in place to add a fee to every streaming subscription equal to 50% of the subscription price. For instance, an individual Premium Spotify subscription currently costs **$10.99/month**, and under this new bill, the price would have to increase to nearly **$16.50/month**. Evidently, the ‘loser’ in this situation would be the direct consumers of the streaming platforms. Further, The proposed legislation also aims to implement a royalty ceiling for songs accumulating over 1 million streams per month. Any royalties garnered by these songs beyond the specified threshold would be distributed among all artists. This wouldn’t go over well with some of the top-performing artists, who have rightfully gained their popularity and streams. Lastly, this bill would mandate that the streaming services themselves would have to dedicate 10% of their non-subscription revenue to the fund, which would likely seem to be unpopular with the companies.
+
+## Innovative Solutions
+
+Another possible solution to aid in creating a better environment for musicians to thrive, would be the creation of tools that address the challenges confronting artists. For example, one pressing issue is the struggle smaller artists encounter in navigating algorithms, which often result in their work being overlooked in favor of content from megastars. A new feature that is soon coming to Spotify is a remixing tool that would allow subscribers to “speed up, mash up and otherwise edit songs from their favorite artists” [@wsj]. This feature particularly targets ‘Gen Z’, many of whom are fully immersed in TikTok trends. The Wall Street Journal explains, “Fans—particularly people in their teens and 20s—regularly manipulate songs for social media, adding their own flair and then splicing the catchiest snippets into viral dance challenges, tutorials and memes. But artists and labels don’t often get paid for those altered versions of their songs, which are hard to track and are often distributed on a range of platforms including TikTok and Instagram Reels,” [@wsj]. As the way music is ingested evolves, artists and labels want to ensure they are getting rightfully paid, and this tool does just that. The short-form and viral entertainment industry, specifically TikTok, allows for music to quickly and vastly spread across the internet, with many altered versions of songs not generating revenue for artists. Many users manipulate tracks and fraudulently upload them to streaming platforms. Through this deceitful practice, these tracks amass millions of streams and generate royalties that fail to reach the original artist. Spotify’s new remix feature aims to feed fan appetite for iterated versions of songs and generate more opportunities for artist royalties. 
+
+With the creation of similar tools, the music industry can change and push the needle for more equitable distribution of revenue.
+
+Overall, it is evident that every potential solution comes with drawbacks, each having 'winners' and 'losers'. 
+
+# Policy Recommendation: Equitable Revenue Sharing Framework
+
+Based on the research provided above, the proposed policy aims to create a more equitable revenue-sharing framework within the digital music industry. It seeks to address the challenges faced by artists in earning a fair income while also incentivizing the creation of high-quality and popular music content.
+
+Key Components:
+
+**1. Transition to a Hybrid Royalty Model:**
+
+  * Implement a hybrid royalty model that combines elements of both the pro rata and user-centric payment systems.
+  * Under this model, a portion of streaming revenue (e.g., 70%) would be distributed using a pro rata system, ensuring all artists receive a baseline income.
+  * The remaining portion (e.g., 30%) would be allocated based on user-centric metrics, such as individual user listening habits and engagement with specific artists.
+
+**2. Promotion of Artist-Friendly Tools and Technologies:**
+
+  * Encourage the development and adoption of tools and technologies that empower artists to navigate streaming algorithms, protect their intellectual property, and monetize their creative work.
+  * Support initiatives like Spotify's remixing tool that enable artists to engage with their fans, participate in viral trends, and capitalize on new revenue opportunities.
+
+**3. Creation of an Artist Support Fund:**
+
+  * Establish a dedicated fund to support emerging and independent artists who may struggle to earn sufficient income from streaming platforms.
+  * The fund would provide financial assistance, mentorship programs, and promotional opportunities to help artists develop their careers and reach wider audiences.
+  * The fund could come from many different sources such as:
+    * *Industry contributions:* Major streaming platforms and record labels could allocate a percentage of their revenue towards the Artist Support Fund. This could be structured as a voluntary contribution or mandated by industry regulations. For example, platforms like Spotify and Apple Music could set aside a portion of their subscription fees or advertising revenue specifically for artist support initiatives.
+    * *Government Grants and Subsidies:* Governments could provide grants and subsidies to the Artist Support Fund as part of broader cultural and arts funding initiatives. This could involve allocating funds from cultural development budgets or establishing specific grant programs to support emerging musicians. Governments may also offer tax incentives or matching grants to encourage private sector contributions to the fund.
+    * *Public-Private Partnerships:* Collaboration between government agencies, non-profit organizations, and private sector entities could enhance the financial sustainability of the Artist Support Fund. For instance, a foundation or non-profit organization dedicated to supporting the arts could administer the fund and leverage partnerships with corporate sponsors, philanthropists, and individual donors to increase its impact.
+    
+The proposed hybrid royalty model combines the strengths of both pro rata and user-centric systems, ensuring fairness and diversity in revenue distribution. Embracing artist-friendly tools and technologies empowers musicians to thrive in an evolving digital landscape while safeguarding their creative rights and financial interests.
+
+The Equitable Revenue Sharing Framework represents a holistic approach to addressing the complex challenges facing musicians in the ever changing digital music industry. By prioritizing fairness, diversity, and innovation, this policy recommendation aims to create a more vibrant and equitable ecosystem for artists to flourish.
+
